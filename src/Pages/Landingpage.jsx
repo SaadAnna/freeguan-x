@@ -4,7 +4,6 @@ import UserReviews from "./UserReviews";
 import { useState, useEffect } from "react";
 const words = ["surveys", "playing games", "watching videos", "sign up offers"];
 import FAQ from "./FAQ";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 export default function Landingpage() {
@@ -36,8 +35,8 @@ export default function Landingpage() {
     AOS.init();
   }, []);
   return (
-    <div className="w-full ">
-      <div className="flex lg:flex-wrap flex-wrap-reverse mt-28 w-full gap-40 bg-gradient-to-r from-blue-50 to-blue-100 p-7 rounded-xl items-center">
+    <div className="w-full">
+      <div className="flex lg:flex-wrap flex-wrap-reverse mt-28 w-full gap-44 bg-gradient-to-t from-blue-100 to-white p-7 items-center">
         <div
           data-aos="fade-up"
           data-aos-duration="900"

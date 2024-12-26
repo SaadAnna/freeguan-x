@@ -14,7 +14,7 @@ export default function HowItWorks() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="flex justify-center items-center text-center $ mt-52"
+        className="flex justify-center items-center text-center  mt-52"
       >
         <h2 className="font-text drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]   sm:text-5xl text-4xl font-bold text-black">
           How It Works?
@@ -23,12 +23,12 @@ export default function HowItWorks() {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="flex flex-wrap mt-28 gap-36 items-center jutify-center  text-center"
+        className="flex flex-wrap w-full h-fit p-8 mt-28 gap-36 items-center jutify-center  text-center"
       >
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className=" w-72 h-72  hover:bg-neutral-100 duration-200 m-auto bg-neutral-50 border-none rounded-lg cursor-pointer p-4 flex flex-col text-start gap-4"
+          className=" w-72 h-72 border border-solid border-neutral-200 hover:bg-neutral-100 duration-200 bg-neutral-50 m-auto   rounded-lg cursor-pointer p-4 flex flex-col text-start gap-4"
         >
           <img className="w-20 h-20 box-border" src={ImageOne} />
 
@@ -42,7 +42,7 @@ export default function HowItWorks() {
         <div
           data-aos="fade-up"
           data-aos-duration="900"
-          className=" w-72 h-72  hover:bg-neutral-100 duration-200 m-auto bg-neutral-50 border-none rounded-lg cursor-pointer p-4 flex flex-col text-start gap-4"
+          className=" w-72 h-72 border border-solid border-neutral-200 hover:bg-neutral-100 duration-200 bg-neutral-50 m-auto   rounded-lg cursor-pointer p-4 flex flex-col text-start gap-4"
         >
           <img className="w-20 h-20 box-border" src={ImageTwo} />
 
@@ -55,7 +55,7 @@ export default function HowItWorks() {
             $CUAN.{" "}
           </p>
         </div>
-        <div className=" w-72 h-72  hover:bg-neutral-100 duration-200 m-auto bg-neutral-50 border-none rounded-lg cursor-pointer p-4 flex flex-col text-start gap-4">
+        <div className=" w-72 h-72 border border-solid border-neutral-200 hover:bg-neutral-100 duration-200 bg-neutral-50 m-auto rounded-lg cursor-pointer p-4 flex flex-col text-start gap-4">
           <img className="w-20 h-20 box-border" src={ImageThree} />
 
           <h1 className="font-text text-black drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)] text-2xl font-bold">

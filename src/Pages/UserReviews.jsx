@@ -87,7 +87,7 @@ export default function UserReviews() {
   }, []);
 
   return (
-    <div className=" w-screen ">
+    <div className=" w-full ">
       <div
         data-aos="fade-up"
         data-aos-duration="900"
